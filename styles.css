@@ -1,7 +1,16 @@
 .holder{
 	display:flex;
-	flex-direction:row;
-	flex-wrap:wap;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+	gap:0;
+	
+}
+
+.item{
+	height:100px;
+	width:100px;
+	display:flex;
 	justify-content:center;
 	align-items:center;
 }
